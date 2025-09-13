@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaylen Smiley - Online Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="resume-container" id="resume">
+    <header>
+      <h1>Jaylen Smiley</h1>
+      <p>(716) 534-5702 · jaylensmiley27@gmail.com</p>
+      <p>Atlanta, GA · <a href="https://www.linkedin.com/in/jaylen-s/" target="_blank" rel="noopener">LinkedIn</a></p>
+      <h3>Cloud Engineer | AWS &amp; Azure | Incident Response</h3>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Cloud-focused Technical Support Engineer transitioning into <strong>Cloud Engineering</strong> roles with hands-on experience in AWS and Azure environments.
+        Proven record of reducing incident response times, migrating large enterprise infrastructures, and automating compliance through scripting.
+        Skilled in building secure, reliable cloud systems while supporting mission-critical applications in healthcare, finance, and legal industries.
+      </p>
+    </section>
+
+    <section class="achievements">
+      <h2>Core Achievements</h2>
+      <ul>
+        <li>Cut incident resolution times by 20% for global healthcare providers by streamlining triage and troubleshooting processes.</li>
+        <li>Led AWS &amp; Azure projects, including S3 automation, IAM frameworks, and Intune-based compliance for 300+ devices.</li>
+        <li>Migrated 800+ endpoints to Windows 11 and 200+ mailboxes to a new domain with minimal business disruption.</li>
+      </ul>
+    </section>
+
+    <section class="employment">
+      <h2>Professional Experience</h2>
+      <div class="timeline-wrapper">
+        <div class="timeline" id="timeline"></div>
+      </div>
+      <div id="job-details" class="fade">
+        <p>Select a year on the timeline to view job details.</p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Key Cloud Projects</h2>
+      <ul>
+        <li><strong>AWS S3 &amp; IAM Automation:</strong> Created S3 buckets, automated uploads, and built IAM policy frameworks for secure access.</li>
+        <li><strong>Device Compliance (Azure Hybrid Join):</strong> Automated device rejoin and security group assignments for 300+ devices using PowerShell.</li>
+        <li><strong>Domain Migration (200+ Users):</strong> Seamlessly migrated users to new infrastructure post-acquisition with minimal downtime.</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2>Education &amp; Training</h2>
+      <ul>
+        <li><strong>Bachelor of Science</strong> — SUNY Buffalo State College (Graduated May 2014)</li>
+        <li><strong>AWS Cloud Engineer Academy</strong> — Cloud Engineering Courses (Mar 2024 – Jul 2024)</li>
+      </ul>
+    </section>
+
+    <section class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li><strong>Oracle OCI Foundations Associate</strong> — Oracle University (Dec 2024)</li>
+        <li><strong>CompTIA Network+</strong> (Sep 2023 — Expires Sep 2026)</li>
+        <li><strong>Microsoft Azure Fundamentals (AZ-900)</strong> — In Progress</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Cloud Platforms:</strong> AWS (S3, IAM, CLI), Azure (Intune, Hybrid Join, MDM)</li>
+        <li><strong>Systems &amp; Admin:</strong> Windows Server, Active Directory, Group Policy, Linux</li>
+        <li><strong>Security &amp; Monitoring:</strong> IAM, CrowdStrike, Citrix, EHR Systems</li>
+        <li><strong>Scripting:</strong> PowerShell, Bash, Automation</li>
+        <li><strong>Collaboration &amp; Tools:</strong> JIRA, Zendesk, Microsoft 365, SLA Management</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="download-btn">
+    <button id="download">Download PDF Resume</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
