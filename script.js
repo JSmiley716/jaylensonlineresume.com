@@ -22,9 +22,10 @@ const jobs = [
     company: "IGNW/CDW at Fisher Phillips",
     years: "May 2024 – Sep 2024 | Sandy Springs, GA",
     description: `
-      - Migrated 800+ workstations to Windows 11.<br>
-      - Automated deployments with Autopilot and PowerShell.<br>
-      - Improved asset tracking and compliance reporting.
+      - Migrated 800+ workstations to Windows 11 with near-zero downtime, ensuring compliance with corporate standards.<br>
+      - Automated IT deployment processes using Autopilot and PowerShell, reducing onboarding time for new hires by 40%.<br>
+      - Partnered with legal and compliance teams to validate security policies during migration, reducing risk exposure.<br>
+      - Developed custom scripts to accelerate asset tracking and reporting initiatives, increasing inventory accuracy by 15%.
     `
   },
   {
@@ -49,9 +50,11 @@ const jobs = [
     company: "McLarens",
     years: "Jun 2022 – Jan 2023 | Norcross, GA",
     description: `
-      - Delivered support to 500+ employees, 98% satisfaction.<br>
-      - Improved reliability by 30% via troubleshooting.<br>
-      - Performed root cause analysis and documentation.
+      - Delivered frontline support to 2000+ global employees, achieving a 98% satisfaction score through timely resolutions.<br>
+      - Improved system reliability by 30% by diagnosing and fixing recurring issues in Windows OS and productivity applications.<br>
+      - Investigated root causes of persistent technical problems and proposed preventive solutions, reducing repeat incidents.<br>
+      - Authored troubleshooting documentation and knowledge base articles, enhancing team efficiency and onboarding.<br>
+      - Shadowed senior engineers in Intune and cloud identity management, gaining early exposure to MDM and IAM practices.
     `
   }
 ];
