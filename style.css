@@ -130,3 +130,7 @@ ul { padding-left: 18px; }
 @media print {
   .download-btn { display: none !important; }
 }
+
+#download {
+  display: none;
+}
